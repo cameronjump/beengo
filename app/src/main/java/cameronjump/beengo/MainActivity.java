@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
         newCard.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent i = new Intent(getBaseContext(), NewCard.class);
+                Intent i = new Intent(getBaseContext(), ScanCard.class);
                 startActivityForResult(i, 1);
             }
         });
